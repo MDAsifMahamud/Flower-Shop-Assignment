@@ -1,0 +1,329 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 90vh;
+    background-color: rgb(247, 230, 234);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 200px;
+    position: relative;
+}
+
+.content h1 {
+    font-size: 90px;
+    font-weight: bold;
+    color: black;
+}
+
+.content p {
+    width: 70%;
+    font-size: 20px;
+    padding: 30px 0;
+    line-height: 30px;
+    color: rgb(122, 120, 120);
+}
+
+.content-img img {
+    height: 800px;
+    margin-top: 127px;
+    
+}
+
+.content button {
+    background: #E55473;
+    padding: 20px 40px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+.Feature {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.Feature h1 {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.Feature p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.Feature-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 200px;
+}
+
+.feature-first {
+    width: 464px;
+    height: 538px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.feature-one a {
+    display: inline-block;
+    padding: 20px 0;
+}
+
+.feature-first img {
+    z-index: 999;
+    margin-top: 110px;
+}
+
+.feature-two a {
+    display: inline-block;
+    padding: 20px 0;
+}
+
+.feature-secand {
+    width: 464px;
+    height: 538px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.feature-secand img {
+    z-index: 999;
+    margin-top: 110px;
+}
+
+.feature-three a {
+    display: inline-block;
+    padding: 20px 0;
+}
+
+.feature-last {
+    width: 464px;
+    height: 538px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.feature-last img {
+    z-index: 999;
+    margin-top: 68px;
+}
+
+.icon-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 60px;
+    padding-top: 10px;
+
+}
+
+.icon-content {
+    width: 1440px;
+    height: 320px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.first-icon p {
+    padding: 10px 0;
+}
+
+.secand-icon p {
+    padding: 10px 0;
+}
+
+.three-icon p {
+    padding: 10px 0;
+}
+
+.sign-up {
+    width: 100%;
+    height: 620px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 200px;
+}
+
+.sign-up-content h1 {
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.sign-up-content p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.sign-up-content button {
+    display: inline-block;
+    margin-left: 200px;
+    margin-top: 20px;
+    background: #E55473;
+    padding: 20px 40px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+.instagramme {
+    padding: 50px 0;
+}
+
+.insta-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 200px;
+}
+
+.instagramme h1 {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding: 1 px 0;
+}
+
+.instagramme p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    margin-bottom: 30px;
+}
+
+.contact-content {
+    width: 1440px;
+    height: 449px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background-image: url("Flower\ Asset/Rectangle 9.png");
+
+}
+
+.hello {
+    text-align: center;
+    margin-top: 200px;
+}
+
+.hello h1 {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.hello p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+#email {
+    width: 700px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+}
+
+#btn {
+    width: 150px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #E55473
+}
+
+.input-field {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    width: 100%;
+    background-color: black;
+    padding: 100px 20px;
+    color: white;
+    text-align: center;
+}
+
+footer h1 span {
+    color: #E55473;
+    font-size: 40px;
+}
+
+footer p {
+    font-size: 20px;
+    line-height: 30px;
+    padding: 10px 0;
+}
+
+footer h3 {
+    padding-top: 20px;
+    font-size: 16px;
+    color: rgb(58, 57, 57);
+}
